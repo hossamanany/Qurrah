@@ -1,0 +1,32 @@
+{
+  "name": "qurrah",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix apps/web run dev",
+    "build": "npm --prefix apps/web run build",
+    "lint": "npm --prefix apps/web run lint"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.86.0"
+  },
+  "devDependencies": {
+    "@netlify/functions": "^2.8.2",
+    "@netlify/plugin-nextjs": "^5.15.1",
+    "netlify-cli": "^23.12.1",
+    "supabase": "^2.63.1",
+    "typescript": "^5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hossamanany/Qurrah.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hossamanany/Qurrah/issues"
+  },
+  "homepage": "https://github.com/hossamanany/Qurrah#readme"
+}
