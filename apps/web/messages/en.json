@@ -9,7 +9,8 @@
     "contact": "Contact",
     "eyeglasses": "Eyeglasses",
     "sunglasses": "Sunglasses",
-    "contacts": "Contacts"
+    "contacts": "Contacts",
+    "shop": "Shop"
   },
   "home": {
     "hero": {
@@ -167,5 +168,105 @@
     "learnMore": "Learn More",
     "shopNow": "Shop Now",
     "viewAll": "View All"
+  },
+  "products": {
+    "eyeglasses": {
+      "meta": {
+        "title": "Eyeglasses | Qurrah",
+        "description": "Discover our collection of premium prescription eyeglasses. Find the perfect frames to match your style."
+      }
+    },
+    "sunglasses": {
+      "meta": {
+        "title": "Sunglasses | Qurrah",
+        "description": "Explore our stylish sunglasses collection. Premium protection meets fashion."
+      }
+    },
+    "contacts": {
+      "meta": {
+        "title": "Contact Lenses | Qurrah",
+        "description": "Shop comfortable contact lenses for daily or monthly wear. Clear vision, all day comfort."
+      }
+    },
+    "productCount": "{count, plural, =0 {No products} =1 {1 product} other {# products}}",
+    "badges": {
+      "new": "New",
+      "bestseller": "Bestseller",
+      "sale": "Sale"
+    },
+    "empty": {
+      "title": "No products found",
+      "description": "Try adjusting your filters or check back later for new arrivals."
+    },
+    "filters": {
+      "title": "Filters",
+      "clearAll": "Clear all",
+      "activeCount": "{count, plural, =1 {1 filter} other {# filters}} active",
+      "showResults": "Show {count, plural, =0 {no results} =1 {1 result} other {# results}}",
+      "gender": {
+        "title": "Gender",
+        "all": "All",
+        "men": "Men",
+        "women": "Women"
+      },
+      "width": {
+        "title": "Frame Width",
+        "narrow": "Narrow",
+        "medium": "Medium",
+        "wide": "Wide",
+        "extraWide": "Extra Wide"
+      },
+      "shape": {
+        "title": "Frame Shape",
+        "round": "Round",
+        "square": "Square",
+        "rectangle": "Rectangle",
+        "aviator": "Aviator",
+        "catEye": "Cat Eye",
+        "geometric": "Geometric",
+        "oval": "Oval"
+      },
+      "material": {
+        "title": "Material",
+        "acetate": "Acetate",
+        "metal": "Metal",
+        "titanium": "Titanium",
+        "mixed": "Mixed"
+      },
+      "color": {
+        "title": "Color"
+      }
+    },
+    "sort": {
+      "label": "Sort by",
+      "newest": "Newest",
+      "priceAsc": "Price: Low to High",
+      "priceDesc": "Price: High to Low",
+      "bestseller": "Bestsellers"
+    },
+    "detail": {
+      "breadcrumb": {
+        "home": "Home"
+      },
+      "badges": {
+        "new": "New Arrival",
+        "bestseller": "Bestseller"
+      },
+      "color": "Color",
+      "addToCart": "Add to Cart",
+      "tryAtHome": "Try at Home",
+      "addToWishlist": "Add to Wishlist",
+      "specifications": "Specifications",
+      "specs": {
+        "frameWidth": "Frame Width",
+        "lensWidth": "Lens Width",
+        "bridgeWidth": "Bridge Width",
+        "material": "Material",
+        "shape": "Shape",
+        "width": "Width",
+        "gender": "Gender"
+      },
+      "relatedProducts": "You May Also Like"
+    }
   }
 }

@@ -7,8 +7,13 @@ import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
 import { LanguageSwitcher } from "./language-switcher";
 
+const shopLinks = [
+  { href: "/eyeglasses", key: "eyeglasses" },
+  { href: "/sunglasses", key: "sunglasses" },
+  { href: "/contacts", key: "contacts" },
+] as const;
+
 const navLinks = [
-  { href: "/", key: "home" },
   { href: "/about", key: "about" },
   { href: "/contact", key: "contact" },
 ] as const;
@@ -75,6 +80,30 @@ export function MobileNav() {
 
           {/* Navigation Links */}
           <div className="flex-1 overflow-y-auto px-4 py-6">
+            {/* Shop Links */}
+            <div className="mb-4">
+              <h3 className="px-4 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+                {t("shop")}
+              </h3>
+              <ul className="mt-2 space-y-1">
+                {shopLinks.map((link) => (
+                  <li key={link.key}>
+                    <Link
+                      href={link.href}
+                      onClick={() => setIsOpen(false)}
+                      className="block rounded-lg px-4 py-3 text-lg font-medium transition-colors hover:bg-muted"
+                    >
+                      {t(link.key)}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Divider */}
+            <div className="my-4 border-t border-border/50" />
+
+            {/* Other Links */}
             <ul className="space-y-1">
               {navLinks.map((link) => (
                 <li key={link.key}>

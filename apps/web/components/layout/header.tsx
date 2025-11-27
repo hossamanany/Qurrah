@@ -9,9 +9,10 @@ import { LanguageSwitcher } from "./language-switcher";
 import { MobileNav } from "./mobile-nav";
 
 const navLinks = [
-  { href: "/", key: "home" },
+  { href: "/eyeglasses", key: "eyeglasses" },
+  { href: "/sunglasses", key: "sunglasses" },
+  { href: "/contacts", key: "contacts" },
   { href: "/about", key: "about" },
-  { href: "/contact", key: "contact" },
 ] as const;
 
 export function Header() {
@@ -50,7 +51,7 @@ export function Header() {
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex lg:items-center lg:gap-1">
             {navLinks.map((link) => {
-              const isActive = pathname === link.href;
+              const isActive = pathname === link.href || pathname.startsWith(link.href + "/");
               return (
                 <Link
                   key={link.key}

@@ -39,7 +39,7 @@ export function CategoriesSection() {
         {categories.map((category) => (
           <Link
             key={category.key}
-            href="/"
+            href={`/${category.key}`}
             className="group relative overflow-hidden rounded-2xl border border-border/50 bg-card p-8 transition-all duration-300 hover:border-border hover:shadow-lg lg:p-10"
           >
             {/* Gradient Background */}
