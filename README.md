@@ -10,7 +10,7 @@ Premium eyewear e-commerce platform.
 
 ## Project Structure
 
-```
+```plaintext
 ├── apps/
 │   └── web/          # Next.js frontend
 ├── functions/        # Netlify serverless functions
