@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "title": "Qurrah | Premium Eyewear",
+    "description": "Discover premium eyewear at Qurrah. Quality glasses, sunglasses, and contacts with exceptional style and comfort."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "eyeglasses": "Eyeglasses",
+    "sunglasses": "Sunglasses",
+    "contacts": "Contacts"
+  },
+  "home": {
+    "hero": {
+      "title": "See the World Differently",
+      "subtitle": "Premium eyewear crafted for style and comfort",
+      "cta": "Explore Collection"
+    },
+    "categories": {
+      "title": "Our Collections",
+      "eyeglasses": {
+        "title": "Eyeglasses",
+        "description": "Prescription frames that define your style"
+      },
+      "sunglasses": {
+        "title": "Sunglasses",
+        "description": "Protection meets fashion"
+      },
+      "contacts": {
+        "title": "Contact Lenses",
+        "description": "Comfort for all-day wear"
+      }
+    },
+    "story": {
+      "title": "Our Story",
+      "description": "We believe everyone deserves to see clearly and look great doing it. Founded with a mission to provide premium eyewear at accessible prices.",
+      "cta": "Learn More"
+    },
+    "features": {
+      "title": "Why Choose Qurrah",
+      "quality": {
+        "title": "Premium Quality",
+        "description": "Handcrafted frames using the finest materials"
+      },
+      "tryOn": {
+        "title": "Virtual Try-On",
+        "description": "See how frames look on you before buying"
+      },
+      "shipping": {
+        "title": "Free Shipping",
+        "description": "Complimentary delivery on all orders"
+      },
+      "returns": {
+        "title": "Easy Returns",
+        "description": "30-day hassle-free return policy"
+      }
+    },
+    "testimonials": {
+      "title": "What Our Customers Say"
+    },
+    "newsletter": {
+      "title": "Stay in the Loop",
+      "description": "Subscribe to receive updates on new arrivals and special offers",
+      "placeholder": "Enter your email",
+      "cta": "Subscribe"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About Qurrah",
+      "subtitle": "Crafting vision, one frame at a time"
+    },
+    "story": {
+      "title": "Our Story",
+      "paragraph1": "Qurrah was founded with a simple belief: everyone deserves access to stylish, high-quality eyewear without breaking the bank.",
+      "paragraph2": "What started as a small idea has grown into a mission to transform how people experience eyewear. We combine traditional craftsmanship with modern design to create frames that are as unique as you are."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To provide premium eyewear that empowers people to see the world clearly while expressing their individual style."
+    },
+    "values": {
+      "title": "Our Values",
+      "quality": {
+        "title": "Uncompromising Quality",
+        "description": "Every frame is crafted with attention to detail and built to last."
+      },
+      "accessibility": {
+        "title": "Accessibility",
+        "description": "Premium eyewear should be available to everyone."
+      },
+      "sustainability": {
+        "title": "Sustainability",
+        "description": "We're committed to environmentally responsible practices."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Constantly pushing boundaries in eyewear design and technology."
+      }
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Get in Touch",
+      "subtitle": "We'd love to hear from you"
+    },
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "Enter your name",
+      "email": "Email Address",
+      "emailPlaceholder": "Enter your email",
+      "subject": "Subject",
+      "subjectPlaceholder": "What is this about?",
+      "message": "Message",
+      "messagePlaceholder": "Tell us more...",
+      "submit": "Send Message",
+      "success": "Thank you! Your message has been sent.",
+      "error": "Something went wrong. Please try again."
+    },
+    "info": {
+      "title": "Contact Information",
+      "address": {
+        "label": "Address",
+        "value": "123 Vision Street, Cairo, Egypt"
+      },
+      "phone": {
+        "label": "Phone",
+        "value": "+20 123 456 7890"
+      },
+      "email": {
+        "label": "Email",
+        "value": "hello@qurrah.com"
+      },
+      "hours": {
+        "label": "Business Hours",
+        "value": "Sun - Thu: 9AM - 6PM"
+      }
+    }
+  },
+  "footer": {
+    "description": "Premium eyewear crafted for style and comfort. See the world differently.",
+    "shop": {
+      "title": "Shop",
+      "eyeglasses": "Eyeglasses",
+      "sunglasses": "Sunglasses",
+      "contacts": "Contacts"
+    },
+    "company": {
+      "title": "Company",
+      "about": "About Us",
+      "contact": "Contact",
+      "careers": "Careers"
+    },
+    "support": {
+      "title": "Support",
+      "faq": "FAQ",
+      "shipping": "Shipping",
+      "returns": "Returns"
+    },
+    "social": {
+      "title": "Follow Us"
+    },
+    "copyright": "© 2025 Qurrah. All rights reserved."
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "shopNow": "Shop Now",
+    "viewAll": "View All"
+  }
+}
